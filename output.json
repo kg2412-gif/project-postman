@@ -1,0 +1,263 @@
+[
+	{
+		"Monday": "MONDAY",
+		"Tuesday": "TUESDAY",
+		"Wednesday": "WEDNESDAY",
+		"Thursday": "THURSDAY",
+		"Friday": "FRIDAY",
+		"Saturday": "SATURDAY",
+		"Sunday": "SUNDAY"
+	},
+	{
+		"Monday": "05-Feb-24",
+		"Tuesday": "06-Feb-24",
+		"Wednesday": "07-Feb-24",
+		"Thursday": "08-Feb-24",
+		"Friday": "09-Feb-24",
+		"Saturday": "10-Feb-24",
+		"Sunday": "11-Feb-24"
+	},
+	{
+		"Monday": "BREAKFAST",
+		"Tuesday": "BREAKFAST",
+		"Wednesday": "BREAKFAST",
+		"Thursday": "BREAKFAST",
+		"Friday": "BREAKFAST",
+		"Saturday": "BREAKFAST",
+		"Sunday": "BREAKFAST"
+	},
+	{
+		"Monday": "CHOICE OF EGG",
+		"Tuesday": "NO EGG",
+		"Wednesday": "CHOICE OF EGG",
+		"Thursday": "CHOICE OF EGG",
+		"Friday": "CHOICE OF EGG",
+		"Saturday": "CHOICE OF EGG",
+		"Sunday": "CHOICE OF EGG"
+	},
+	{
+		"Monday": "CORNFLAKES",
+		"Tuesday": "CORNFLAKES",
+		"Wednesday": "CORNFLAKES",
+		"Thursday": "CORNFLAKES",
+		"Friday": "CORNFLAKES",
+		"Saturday": "CORNFLAKES",
+		"Sunday": "CORNFLAKES"
+	},
+	{
+		"Monday": "BREAD +JAM",
+		"Tuesday": "BREAD +JAM",
+		"Wednesday": "BREAD +JAM",
+		"Thursday": "BREAD +JAM",
+		"Friday": "TEA+ COFFEE",
+		"Saturday": "BREAD +JAM",
+		"Sunday": "BREAD +JAM"
+	},
+	{
+		"Monday": "POHA",
+		"Tuesday": "ALOO PARATHA",
+		"Wednesday": "BREAD PAKODA",
+		"Thursday": "MUTTER KULCHA",
+		"Friday": "Milk",
+		"Saturday": "SUJI UPMA",
+		"Sunday": "MASALA DOSA"
+	},
+	{
+		"Monday": "GRAPES",
+		"Tuesday": "CURD",
+		"Wednesday": "TOMATO KETCHUP",
+		"Thursday": "KULCHA",
+		"Friday": "FRIDAY",
+		"Saturday": "ADRAK CHUTNEY",
+		"Sunday": "SAMBHAR"
+	},
+	{
+		"Monday": "TEA+ COFFEE",
+		"Tuesday": "PICKEL",
+		"Wednesday": "SWEET DALIYA",
+		"Thursday": "CUT ONION LEMON",
+		"Friday": "LUNCH",
+		"Saturday": "TEA+ COFFEE",
+		"Sunday": "GRAPES"
+	},
+	{
+		"Monday": "Milk",
+		"Tuesday": "KINU",
+		"Wednesday": "TEA+ COFFEE",
+		"Thursday": "PAPAYA",
+		"Friday": "ONION SALAD",
+		"Saturday": "Milk",
+		"Sunday": "TEA+ COFFEE"
+	},
+	{
+		"Monday": "MONDAY",
+		"Tuesday": "TEA+ COFFEE",
+		"Wednesday": "Milk",
+		"Thursday": "TEA+ COFFEE",
+		"Friday": "BAINGAN BHARTHA",
+		"Saturday": "SATURDAY",
+		"Sunday": "Milk"
+	},
+	{
+		"Monday": "LUNCH",
+		"Tuesday": "Milk",
+		"Wednesday": "WEDNESDAY",
+		"Thursday": "Milk",
+		"Friday": "RAJMA MASALA",
+		"Saturday": "LUNCH",
+		"Sunday": "SUNDAY"
+	},
+	{
+		"Monday": "DISCO PAPAD",
+		"Tuesday": "TUESDAY",
+		"Wednesday": "LUNCH",
+		"Thursday": "THURSDAY",
+		"Friday": "DAL FRY",
+		"Saturday": "GREEN CHUTNEY",
+		"Sunday": "LUNCH"
+	},
+	{
+		"Monday": "KADHI PAKODA",
+		"Tuesday": "LUNCH",
+		"Wednesday": "CHAPATI",
+		"Thursday": "LUNCH",
+		"Friday": "CHAPATI",
+		"Saturday": "FRENCH FRIES",
+		"Sunday": "ONION SALAD"
+	},
+	{
+		"Monday": "MADRASI ALOO",
+		"Tuesday": "BHEL POORI",
+		"Wednesday": "VEG POLAO",
+		"Thursday": "GREEN SALAD",
+		"Friday": "PLAIN  RICE",
+		"Saturday": "RAGDA MUTTER",
+		"Sunday": "PANEER LABABDAR"
+	},
+	{
+		"Monday": "VEG KHICHDI",
+		"Tuesday": "SWEET POTATO DRY",
+		"Wednesday": "PINEAPPLE RAITA",
+		"Thursday": "GAJAR MUTTER",
+		"Friday": "BATHUA RAITA",
+		"Saturday": "CURD /BUTTER",
+		"Sunday": "DHABA CHICKEN"
+	},
+	{
+		"Monday": "CHAPATI",
+		"Tuesday": "VEG KADHAI",
+		"Wednesday": "CHOCO BURFI",
+		"Thursday": "GATTA CURRY",
+		"Friday": "SHIKANJI",
+		"Saturday": "MIX VEG PARATHA",
+		"Sunday": "NAAN / CHAPATI"
+	},
+	{
+		"Monday": "PLAIN  RICE",
+		"Tuesday": "DAL MAHARANI",
+		"Wednesday": "WEDNESDAY",
+		"Thursday": "CHANNA DAL TADKA",
+		"Friday": "FRIDAY",
+		"Saturday": "PLAIN  RICE",
+		"Sunday": "BIRYANI RICE"
+	},
+	{
+		"Monday": "MONDAY",
+		"Tuesday": "PLAIN  RICE",
+		"Wednesday": "DINNER",
+		"Thursday": "CHAPATI",
+		"Friday": "DINNER",
+		"Saturday": "SAMBAR",
+		"Sunday": "SUNDAY"
+	},
+	{
+		"Monday": "DINNER",
+		"Tuesday": "SAMBAR",
+		"Wednesday": "ALOO CHANA CHAAT",
+		"Thursday": "PLAIN  RICE",
+		"Friday": "MIX SALAD",
+		"Saturday": "SATURDAY",
+		"Sunday": "DINNER"
+	},
+	{
+		"Monday": "MIRCH KE TAPORE/ LAHSUN CHUTNEY",
+		"Tuesday": "SWEET LASSI",
+		"Wednesday": "TAWA VEG (NO KARELA)",
+		"Thursday": "SAMBAR",
+		"Friday": "VEG MANCHURIAN",
+		"Saturday": "DINNER",
+		"Sunday": "PASTA SALAD"
+	},
+	{
+		"Monday": "ALOO RASSA",
+		"Tuesday": "TUESDAY",
+		"Wednesday": "DAL PALAK",
+		"Thursday": "RASNA",
+		"Friday": "BLACK MASOOR DAL",
+		"Saturday": "GREEN SALAD",
+		"Sunday": "METHI MALAI MUTTER"
+	},
+	{
+		"Monday": "DAL FRY",
+		"Tuesday": "DINNER",
+		"Wednesday": "CHAPATI",
+		"Thursday": "THURSDAY",
+		"Friday": "EGG FRIED RICE / VEG FRIED RICE",
+		"Saturday": "SARSOON KA SAAG",
+		"Sunday": "DAL LASOONI"
+	},
+	{
+		"Monday": "BATI/ CHAPATI",
+		"Tuesday": "LEMON + ONION",
+		"Wednesday": "",
+		"Thursday": "DINNER",
+		"Friday": "CHAPATI",
+		"Saturday": "",
+		"Sunday": "PLAIN RICE"
+	},
+	{
+		"Monday": "PLAIN  RICE",
+		"Tuesday": "KHATTA MEETHA PUMPKIN",
+		"Wednesday": "",
+		"Thursday": "GREEN SALAD",
+		"Friday": "BALIUSHAHI",
+		"Saturday": "",
+		"Sunday": "CHAPATI"
+	},
+	{
+		"Monday": "RASAM",
+		"Tuesday": "CHOLE  MASALA",
+		"Wednesday": "",
+		"Thursday": "VEG KORMA",
+		"Friday": "",
+		"Saturday": "",
+		"Sunday": "RASAM"
+	},
+	{
+		"Monday": "",
+		"Tuesday": "HOT CHOCO MILK",
+		"Wednesday": "",
+		"Thursday": "BUTTER DAL TADKA",
+		"Friday": "",
+		"Saturday": "",
+		"Sunday": "HOT \u0026 SOUR SOUP"
+	},
+	{
+		"Monday": "",
+		"Tuesday": "",
+		"Wednesday": "",
+		"Thursday": "CHAPATI",
+		"Friday": "",
+		"Saturday": "",
+		"Sunday": ""
+	},
+	{
+		"Monday": "",
+		"Tuesday": "",
+		"Wednesday": "",
+		"Thursday": "GULAB JAMUN",
+		"Friday": "",
+		"Saturday": "",
+		"Sunday": ""
+	}
+]
