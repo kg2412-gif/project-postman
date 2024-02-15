@@ -11,8 +11,6 @@ import (
 	"github.com/xuri/excelize/v2"
 )
 
-
-
 func meal_finder(day string, meal string) []string {
 	var a []string
 	var n int
@@ -49,6 +47,7 @@ func meal_finder(day string, meal string) []string {
 func item_counter(day string, meal string) int {
 	//I have considered tea and coffee to be separate and bread and jam to be seperate so these are counted as 2
 	//I have done the same for veg fried rice and egg fried rice
+	//I have now also considered choice of egg to be three separate items: boiled egg, Omelette, half fried
 	var no_items int
 	var n int
 	file, err := excelize.OpenFile("Sample-Menu.xlsx")
@@ -74,6 +73,8 @@ func item_counter(day string, meal string) int {
 					continue
 				} else if strings.Contains(col_meal[k], "+") || strings.Contains(col_meal[k], "/") {
 					no_items += 2
+				} else if strings.EqualFold(col_meal[k], "NO EGG") {
+					continue
 				} else {
 					no_items++
 				}
@@ -107,9 +108,24 @@ func item_checker(day string, meal string, item string) bool {
 					break
 				} else if strings.EqualFold(col_meal[k], item) {
 					return true
-				} else if strings.EqualFold(item, "tea") || strings.EqualFold(item, "coffee") ||
-					strings.EqualFold(item, "Veg fried rice") || strings.EqualFold(item, "egg fried rice") || strings.EqualFold(item, "bread") ||
-					strings.EqualFold(item, "jam") || strings.EqualFold(item, "butter") || strings.EqualFold(item, "curd") || strings.EqualFold(item, "Tawa veg") {
+				} else if strings.Contains(col_meal[k], "+") {
+					s := strings.ReplaceAll(col_meal[k], " ", "")
+					sp := strings.Split(s, "+")
+					for _, i := range sp {
+						if strings.EqualFold(i, item) {
+							return true
+						}
+					}
+				} else if strings.Contains(col_meal[k], "/") {
+					s := strings.ReplaceAll(col_meal[k], " ", "")
+					sp := strings.Split(s, "/")
+					for _, i := range sp {
+						if strings.EqualFold(i, item) {
+							return true
+						}
+					}
+				} else if strings.EqualFold(item, "Tawa veg") {
+					// I have done a separate case for Tawa veg because nobody will input tawa veg (NO KARELA)
 					return true
 				} else if col_meal[k] == "" {
 					break
@@ -177,16 +193,15 @@ func myjson_converter() {
 }
 
 type full_meal struct {
-	day             string
-	date            string
-	Breakfast_items []string
-	Lunch_items     []string
-	Dinner_items    []string
+	day         string
+	date        string
+	meal_timing string
+	meal_items  []string
 }
 
 func (m full_meal) details() {
-	output := fmt.Sprintf("Day: %s \nDate: %s \nBreakfast items:%s\nLunch item:%s \nDinner_items%s",
-		m.day, m.date, m.Breakfast_items, m.Lunch_items, m.Dinner_items)
+	output := fmt.Sprintf("Day: %s \nDate: %s \nMeal Timing:%s\nMeal items:%s",
+		m.day, m.date, m.meal_timing, m.meal_items)
 
 	fmt.Println(output)
 
@@ -201,6 +216,7 @@ func main() {
 
 	for m == 1 {
 		var n int
+		fmt.Println()
 		fmt.Println(default_string)
 		fmt.Scan(&n)
 
@@ -245,6 +261,8 @@ func main() {
 		if n == 4 {
 			fmt.Print("Enter day")
 			fmt.Scan(&day)
+			fmt.Print("Enter meal timing")
+			fmt.Scan(&meal)
 			File, err := excelize.OpenFile("Sample-Menu.xlsx")
 			if err != nil {
 				fmt.Println(err)
@@ -258,10 +276,8 @@ func main() {
 				}
 			}
 			date := rows[1][t]
-			items_breakfast := meal_finder(day, "Breakfast")
-			items_lunch := meal_finder(day, "Lunch")
-			items_dinner := meal_finder(day, "Dinner")
-			m := full_meal{day: day, date: date, Breakfast_items: items_breakfast, Lunch_items: items_lunch, Dinner_items: items_dinner}
+			items_meal := meal_finder(day, meal)
+			m := full_meal{day: day, date: date, meal_timing: meal, meal_items: items_meal}
 			m.details()
 		}
 		if n == 5 {
